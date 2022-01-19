@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.counter {
+  width: 600px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 6px;
+  background-color: rgb(92, 12, 197);
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 100px;
+  color: white;
+  justify-content: space-around;
+}
+.counter_decrement {
+  height: 150px;
+  width: 150px;
+}
+.counter_increment {
+  height: 150px;
+  width: 150px;
+}
+.value_counter {
+  height: 150px;
+  width: 200px;
+  p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+  }
+}
+button {
+  margin-top: 55px;
+  margin-left: 35px;
+  height: 40px;
+  width: 80px;
+}
